@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{ 
+    background-color: rgb(37, 3, 3);
+    margin: 15%;
+    color: aqua;
+  }
+header{
+
+ color: cornsilk;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 50px;
+ position: relative;
+ text-transform: uppercase;
+}
+
+.palavras{
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+.enviar{
+    display: flex;
+    margin: 10px;
+    text-decoration: none;
+
+}
+.face{
+    display: flex;
+    text-align: center;
+    color: aqua;
+    text-transform: uppercase;
+    align-items: center;
+    margin: 10px;
+}
+.face img{
+    max-width: 40px;
+}
+.insta{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    text-align: center;
+    color: aqua;
+    margin: 10px;
+}
+.insta img{
+    max-width: 35px;
+}

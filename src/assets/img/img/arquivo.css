@@ -1,0 +1,119 @@
+* {
+    margin: 5px 5px 5px 5px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none
+    
+}
+
+body {
+    font-size: 100;
+    background: #0f0a0e;
+    color: cornsilk;
+}
+
+.cabeca {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    border-top: 50px;
+    font-weight: 300px;
+    font-size: 40px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: right;
+    
+
+}
+
+.partedocabeçalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: sans-serif;  
+    flex-direction: row;
+    font-size: 30px;  
+     
+}
+
+.imagens {
+ display: flex;
+ flex-direction: row;
+width:369px;
+height: 369px;
+gap: 15px;
+}
+
+.escritosabaixo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: sans-serif;  
+    flex-direction: row;
+    font-size: 30px; 
+}
+
+.participarebotao {
+    display: flex;
+    flex-direction: row;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+   
+
+}
+
+.participardocampeonato {
+    font-size: 30px;
+    margin-top: 700px;
+}
+
+
+.botaoincrever{
+ width: 132px;
+height: 40px;
+right: 90px;
+margin-left: 375px;
+margin-top: 100px;
+background-color: rgb(81, 4, 4);
+}
+
+.conjutoregras{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    margin-left: auto;
+}
+
+.linkdireita {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px; 
+}
+
+.paginasdeentrada{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin-left: 700px;
+}
+
+.direito {
+    margin-left: 375px;
+    font-size: 20px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1100px;
+    margin-top: 10px;
+    width: 5px;
+    right: 5px;
+    left: 5px;
+}
+
